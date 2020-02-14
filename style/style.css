@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#hero {
+  background-image: url("../images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 75%;
+  height: 65vh;
+  width: 100%;
+}
+
+#hero #outer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: inherit;
+}
+
+#hero #outer-container #inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#hero #outer-container #inner-container h1 {
+  color: white;
+  font-size: 3.5rem;
+  text-align: left;
+  width: 50%;
+  line-height: 1;
+  margin: 2rem;
+}
+
+#compare {
+  margin-top: 3rem;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#compare h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#compare ul {
+  margin-top: 2.7rem;
+  text-align: center;
+}
+
+#compare ul li {
+  display: inline-block;
+}
+
+#compare ul li:nth-child(2) {
+  margin-left: 2.5rem;
+}
+
+#compare ul li img {
+  max-width: 285px;
+}
+
+#compare p {
+  margin-top: 2.4rem;
+  line-height: 1.8;
+}
+
+#route {
+  margin-top: 3rem;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#route h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#route p {
+  margin-top: 1.5rem;
+  line-height: 1.8;
+}
+
+#route ul {
+  margin-top: 2.7rem;
+  text-align: center;
+}
+
+#route ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#route ul li:nth-child(2) {
+  margin-left: 2rem;
+}
+
+#route #view-container .view {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#route #view-container .view h1, #route #view-container .view p {
+  text-align: left;
+}
+
+#route #view-container .view img {
+  margin-top: 2.5rem;
+  max-width: 100%;
+}
+
+#route #view-container .view p {
+  margin-top: 3rem;
+}
+
+#conclusion {
+  margin-top: 3rem;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#conclusion h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#conclusion p {
+  margin-top: 1.5rem;
+  line-height: 1.8;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  text-align: center;
+  margin-top: 6.5rem;
+}
+
+footer p {
+  font-weight: 200;
+}
+/*# sourceMappingURL=style.css.map */

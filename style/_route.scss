@@ -1,0 +1,50 @@
+#route {
+    margin-top: 3rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1 {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    p {
+        margin-top: 1.5rem;
+        line-height: 1.8;
+    }
+
+    ul {
+        margin-top: 2.7rem;
+        text-align: center;
+        li {
+            list-style-type: none;
+            display: inline-block;
+
+            &:nth-child(2) {
+                margin-left: 2rem;
+            }
+        }
+    }
+
+    #view-container {
+
+        .view {
+            margin-top: 3rem;
+            text-align: center;
+
+            h1, p {
+                text-align: left;
+            }
+
+            img {
+                margin-top: 2.5rem;
+                max-width: 100%;
+            }
+
+            p {
+                margin-top: 3rem;
+            }
+        }
+    }
+}

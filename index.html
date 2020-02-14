@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AngularJS Mockup Site</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    </head>
+
+    <body ng-app="app" ng-controller="main-controller">
+
+        <section id="hero">
+            <div id="outer-container">
+                <div id="inner-container">
+                    <h1>Can Mars really become our next home?</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="compare">
+            <h1>Similarities and Differences</h1>
+            <ul>
+                <li ng-repeat="planet_src in array_of_planets">
+                    <img src={{planet_src}} alt="planet" />
+                </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sodales scelerisque 
+                mollis dapibus sagittis, morbi nibh condimentum cum eros urna sollicitudin 
+                semper turpis senectus vitae. Magna maecenas pellentesque nunc faucibus in 
+                porttitor congue libero, magnis semper ad facilisis odio at etiam est, 
+                mauris fringilla lacinia fames ornare malesuada praesent. Tellus magna 
+                gravida faucibus pretium nisi per parturient malesuada sed lectus libero 
+                hendrerit cursus, nec arcu varius platea nunc facilisi laoreet turpis 
+                habitant fermentum fringilla cras, curae blandit posuere mus himenaeos purus 
+                et sem suscipit phasellus primis mattis.
+            </p>
+        </section>
+
+        <section id="route">
+            <h1>Is It Possible?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sodales scelerisque 
+                mollis dapibus sagittis, morbi nibh condimentum cum eros urna sollicitudin 
+                semper turpis senectus vitae. Magna maecenas pellentesque nunc faucibus in 
+                porttitor congue libero.
+            </p>
+            <ul>
+                <li><a href="#!/possible">Possible</a></li>
+                <li><a href="#!/impossible">Impossible</a></li>
+            </ul>
+            <div id="view-container">
+                <ng-view></ng-view>
+            </div>
+        </section>
+
+        <section id="conclusion">
+            <!-- to invoke a custom directive, must use "-" -->
+            <conclusion-section></conclusion-section>
+        </section>
+
+        <footer>
+            <p>Created with AngularJS. 2020.</p>
+        </footer>
+
+    </body>
+    <script src="./angularjs/module.js"></script>
+    <script src="./angularjs/controllers.js"></script>
+    <script src="./angularjs/config.js"></script>
+    <script src="./angularjs/directives.js"></script>
+</html>

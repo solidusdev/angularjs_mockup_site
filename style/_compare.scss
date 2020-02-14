@@ -1,0 +1,33 @@
+#compare {
+    margin-top: 3rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1 {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    ul {
+        margin-top: 2.7rem;
+        text-align: center;
+        
+        li {
+            display: inline-block;
+            
+            &:nth-child(2) {
+                margin-left: 2.5rem;
+            }
+            
+            img {
+                max-width: 285px;
+            }
+        }
+    }
+
+    p {
+        margin-top: 2.4rem;
+        line-height: 1.8;
+    }
+}
